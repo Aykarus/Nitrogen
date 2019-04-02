@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Oswald|Oxygen:300|Roboto');
+
 body, html {
   height: 100%;
   margin: 0;
+  border: 1px solid green;
+  margin: 0 auto;
+  color: White;
+  text-shadow: .5px .5px .35px rgba(79, 79, 79, 0.51);
+  font-family: Oxygen,Cabin,Oswald, Roboto;
+  /*color: grey;*/
 }
 
 .bg {
   /* The image used */
-  background-image: url("Resources/Forest.jpg");
+  background-image: url("Resources/Mountains.jpg");
 
   /* Full height */
   height: 100%;
@@ -17,6 +25,23 @@ body, html {
 }
 
 .greeter{
+    text-align: center;
     border: 1px solid green;
     margin: 0 auto;
+    padding-top: 20%;
+}
+
+.time{
+    font-size: 100px;
+}
+
+.greeter input{
+    background: none;
+    border-style: none;
+    color: white;
+    width: auto;
+}
+
+.daily{
+    font-size: 50px;
 }
