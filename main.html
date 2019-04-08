@@ -8,7 +8,7 @@
     <title></title>
 </head>
 
-<body>
+<body onload=startTime()>
 
     <div class="bg">
 
@@ -28,10 +28,11 @@
         </div>
 
         <div class="greeter container-fluid">
-            <h1 class="time">19:00</h1>
+            <h1 id="time">19:00</h1>
             <div class="daily">
-                <span class="message">Good Evening </span><span class="name" contenteditable="true">Steven</span> .
+                <span id="message">Good Evening </span><span class="name" contenteditable="true">Steven</span> .
             </div>
+
             <div class="focus">
               <h3>What is your main focus for today?</h3>
               <input type="text" id="prompt">
@@ -40,6 +41,22 @@
 
               </ul>
             </div>
+
+
+=======
+        </div>
+
+        <div class="todo-greeter">
+            <h2 id='MessageOfDay'>What Would You Like to Do Today?</h2>
+            <span contenteditable="true"></span>
+        </div>
+
+        <div class="inspirational-quote">
+          <p> “If you're reading this... <br>
+            Congratulations, you're alive.<br>
+            If that's not something to smile about,<br>
+            then I don't know what is.”
+          </p>
 
 
         </div>

@@ -31,7 +31,7 @@ body, html {
     padding-top: 20%;
 }
 
-.time{
+#time{
     font-size: 100px;
 }
 
@@ -45,6 +45,7 @@ body, html {
 .daily{
     font-size: 50px;
 }
+
 
 #prompt {
     width: 50%;
@@ -60,4 +61,18 @@ body, html {
 
 #myBtn {
   /* display: none; */
+=======
+.todo-greeter{
+    border: 1px solid green;
+    text-align: center;
+}
+
+.inspirational-quote{
+  /*position: relative;*/
+  margin-top: 30%;
+  bottom: 0;
+  text-align: center;
+  /*border: 1px solid black;*/
+
+
 }
