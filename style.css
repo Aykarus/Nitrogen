@@ -45,3 +45,19 @@ body, html {
 .daily{
     font-size: 50px;
 }
+
+#prompt {
+    width: 50%;
+    padding-top: 4px;
+    /*display: block;*/
+    background: 0;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    text-align: Center;
+}
+
+#myBtn {
+  /* display: none; */
+}
