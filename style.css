@@ -46,6 +46,22 @@ body, html {
     font-size: 50px;
 }
 
+
+#prompt {
+    width: 50%;
+    padding-top: 4px;
+    /*display: block;*/
+    background: 0;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    text-align: Center;
+}
+
+#myBtn {
+  /* display: none; */
+=======
 .todo-greeter{
     border: 1px solid green;
     text-align: center;
@@ -57,5 +73,6 @@ body, html {
   bottom: 0;
   text-align: center;
   /*border: 1px solid black;*/
+
 
 }
