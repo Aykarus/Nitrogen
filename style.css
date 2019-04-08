@@ -61,18 +61,20 @@ body, html {
 
 #myBtn {
   /* display: none; */
-=======
 .todo-greeter{
     border: 1px solid green;
     text-align: center;
 }
 
+
+.weather{
+    padding-top:10px;
+  }
+  
 .inspirational-quote{
   /*position: relative;*/
   margin-top: 30%;
   bottom: 0;
   text-align: center;
   /*border: 1px solid black;*/
-
-
 }

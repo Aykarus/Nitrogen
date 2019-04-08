@@ -68,8 +68,3 @@ function checkTime(i) {
     }; // add zero in front of numbers < 10
     return i;
 }
-
-function greetings() {
-
-
-}
