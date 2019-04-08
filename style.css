@@ -45,3 +45,8 @@ body, html {
 .daily{
     font-size: 50px;
 }
+
+.todo-greeter{
+    border: 1px solid green;
+    text-align: center;
+}
