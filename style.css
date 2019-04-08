@@ -50,3 +50,7 @@ body, html {
     border: 1px solid green;
     text-align: center;
 }
+
+.weather{
+    padding-top:10px;
+}
