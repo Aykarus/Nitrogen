@@ -60,23 +60,5 @@ body, html {
 }
 
 #myBtn {
-<<<<<<< HEAD
   display: none;
-=======
-  /* display: none; */
-=======
-.todo-greeter{
-    border: 1px solid green;
-    text-align: center;
-}
-
-.inspirational-quote{
-  /*position: relative;*/
-  margin-top: 30%;
-  bottom: 0;
-  text-align: center;
-  /*border: 1px solid black;*/
-
-
->>>>>>> 927282125b46db393fc812f77ffa5133088c5a2a
 }
