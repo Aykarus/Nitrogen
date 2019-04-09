@@ -16,36 +16,35 @@ input.addEventListener("keyup", function(event) {
 });
 
 var n = 0;
+var list = document.getElementById('goals')
+var lastid = 0;
 
 function addGoals() {
-  //get info person wrote in text box
-  var goal = document.getElementById('prompt').value;
-  console.log('User goal is ' + goal);
+  //get info person wrote in text box
+  var goal = document.getElementById('prompt').value;
+  console.log('User goal is ' + goal);
 
-  //create an li item
-  var li = document.createElement("li");
-  li.innerHTML = goal;
+  //create an li item
+  var li = document.createElement("li");
+  li.innerHTML = goal;
+  //add to goals list
+  document.getElementById("goals").appendChild(li)
+  li.setAttribute('id', 'item'+n);
 
-  //add to goals list
-  document.getElementById("goals").appendChild(li)
+  // n++;
+  // li.setAttribute('id', n);
+  // console.log(n.value);
 
-  n++;
-  li.setAttribute('id', n);
-
-  //create a remove button
-  var removeButton = document.createElement("button")
-  removeButton.innerHTML = "Remove"
-
-  //add button to the list
-  document.getElementById("goals").appendChild(removeButton);
-
-  //clear the text input inputBox
-  document.getElementById("prompt").value = "";
-
+  //remove button
+  var removeButton = document.createElement('button');
+  removeButton.appendChild(document.createTextNode("remove"));
+  removeButton.setAttribute('onClick','removeElement("'+'item'+n+'")');
+  li.appendChild(removeButton);
+  n+=1;
+  list.appendChild(li);
 }
 
-element.addEventListener('click', removeElement);
-
-function removeElement() {
-
+  function removeElement(id) {
+    var item = document.getElementById(id);
+        list.removeChild(item);
 }
