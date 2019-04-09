@@ -3,7 +3,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     margin: 0 auto;
     color: White;
     text-shadow: .5px .5px .35px rgba(79, 79, 79, 0.51);
@@ -24,7 +24,7 @@ body, html {
 
 .greeter {
     text-align: center;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     margin: 0 auto;
     padding-top: 20%;
 }
@@ -56,22 +56,22 @@ body, html {
     text-align: Center;
 }
 
-#myBtn {
+#myBtn {}
 
-    /* display: none; */
-    .todo-greeter {
-        border: 1px solid green;
-        text-align: center;
-    }
+/* display: none; */
+.todo-greeter {
+    border: 1px solid green;
+    text-align: center;
+}
 
-    .weather {
-        padding-top: 10px;
-    }
+.weather {
+    padding-top: 10px;
+}
 
-    .inspirational-quote {
-        /*position: relative;*/
-        margin-top: 30%;
-        bottom: 0;
-        text-align: center;
-        /*border: 1px solid black;*/
-    }
+.inspirational-quote {
+    /*position: relative;*/
+    margin-top: 30%;
+    bottom: 0;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
