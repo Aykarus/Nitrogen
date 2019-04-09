@@ -1,51 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Oswald|Oxygen:300|Roboto');
 
 body, html {
-  height: 100%;
-  margin: 0;
-  border: 1px solid green;
-  margin: 0 auto;
-  color: White;
-  text-shadow: .5px .5px .35px rgba(79, 79, 79, 0.51);
-  font-family: Oxygen,Cabin,Oswald, Roboto;
-  /*color: grey;*/
+    height: 100%;
+    margin: 0;
+    border: 1px solid green;
+    margin: 0 auto;
+    color: White;
+    text-shadow: .5px .5px .35px rgba(79, 79, 79, 0.51);
+    font-family: Oxygen, Cabin, Oswald, Roboto;
+    /*color: grey;*/
 }
 
 .bg {
-  /* The image used */
-  background-image: url("Resources/Mountains.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* The image used */
+    background-image: url("Resources/Mountains.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.greeter{
+.greeter {
     text-align: center;
     border: 1px solid green;
     margin: 0 auto;
     padding-top: 20%;
 }
 
-#time{
+#time {
     font-size: 100px;
 }
 
-.greeter input{
+.greeter input {
     background: none;
     border-style: none;
     color: white;
     width: auto;
 }
 
-.daily{
+.daily {
     font-size: 50px;
 }
-
 
 #prompt {
     width: 50%;
@@ -60,21 +57,21 @@ body, html {
 }
 
 #myBtn {
-  /* display: none; */
-.todo-greeter{
-    border: 1px solid green;
-    text-align: center;
-}
 
+    /* display: none; */
+    .todo-greeter {
+        border: 1px solid green;
+        text-align: center;
+    }
 
-.weather{
-    padding-top:10px;
-  }
-  
-.inspirational-quote{
-  /*position: relative;*/
-  margin-top: 30%;
-  bottom: 0;
-  text-align: center;
-  /*border: 1px solid black;*/
-}
+    .weather {
+        padding-top: 10px;
+    }
+
+    .inspirational-quote {
+        /*position: relative;*/
+        margin-top: 30%;
+        bottom: 0;
+        text-align: center;
+        /*border: 1px solid black;*/
+    }
