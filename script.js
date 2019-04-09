@@ -15,6 +15,8 @@ input.addEventListener("keyup", function(event) {
   }
 });
 
+var n = 0;
+
 function addGoals() {
   //get info person wrote in text box
   var goal = document.getElementById('prompt').value;
@@ -27,6 +29,9 @@ function addGoals() {
   //add to goals list
   document.getElementById("goals").appendChild(li)
 
+  n++;
+  li.setAttribute('id', n);
+
   //create a remove button
   var removeButton = document.createElement("button")
   removeButton.innerHTML = "Remove"
@@ -36,4 +41,11 @@ function addGoals() {
 
   //clear the text input inputBox
   document.getElementById("prompt").value = "";
+
+}
+
+element.addEventListener('click', removeElement);
+
+function removeElement() {
+
 }
