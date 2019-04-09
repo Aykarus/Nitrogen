@@ -33,7 +33,11 @@ body, html {
     font-size: 100px;
 }
 
+
+.greeter {
+
 .greeter input {
+
     background: none;
     border-style: none;
     color: white;
@@ -55,6 +59,15 @@ body, html {
     color: #fff;
     text-align: Center;
 }
+
+
+#myBtn {
+  display: none;
+}
+
+div:after{
+  display: inline-block;
+  content: "\00d7"; /* This will render the 'X' */
 
 #myBtn {}
 
