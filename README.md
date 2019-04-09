@@ -10,4 +10,6 @@ the guide line that must be followed
 
 
 ## Students
-Chester Cari 991417424
+* Chester Cari 991417424
+* Carlos Camiguing 991516987
+* Matthew Vinzon 991518415
